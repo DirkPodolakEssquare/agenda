@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-08T06:29:29.495Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="9Tieti-s1wdTX5Cbgsj3" version="15.3.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-10-08T08:00:05.852Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="ZeoR4VBu9JsUrUWmhX0t" version="15.3.5" type="github" pages="5">
   <diagram id="TfbsqwK6pt8Qm60HU7U2" name="Systemkontext">
     <mxGraphModel dx="2574" dy="1433" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -307,20 +307,20 @@
     </mxGraphModel>
   </diagram>
   <diagram id="sffFwQoVKHdkiY7V-4ZY" name="Datenmodelle">
-    <mxGraphModel dx="2574" dy="1433" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1032" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="DwTzeZmS_MT8VIM_kDLp-0" />
         <mxCell id="DwTzeZmS_MT8VIM_kDLp-1" parent="DwTzeZmS_MT8VIM_kDLp-0" />
         <mxCell id="ND92nCrHSuS9NVeJZmGj-20" value="&lt;span style=&quot;font-weight: 400&quot;&gt;mandant&lt;br&gt;&lt;/span&gt;" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;align=right;verticalAlign=top;" parent="DwTzeZmS_MT8VIM_kDLp-1" vertex="1">
-          <mxGeometry x="360" y="41" width="240" height="110" as="geometry" />
+          <mxGeometry x="360" y="41" width="240" height="119" as="geometry" />
         </mxCell>
         <mxCell id="DwTzeZmS_MT8VIM_kDLp-7" value="«entity»&#xa;Mandant" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="DwTzeZmS_MT8VIM_kDLp-1" vertex="1">
-          <mxGeometry x="380" y="71" width="140" height="70" as="geometry">
+          <mxGeometry x="380" y="71" width="140" height="80" as="geometry">
             <mxRectangle x="180" y="400" width="80" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DwTzeZmS_MT8VIM_kDLp-8" value="+ Name&#xa;+ Adressdaten" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="DwTzeZmS_MT8VIM_kDLp-7" vertex="1">
-          <mxGeometry y="26" width="140" height="44" as="geometry" />
+        <mxCell id="DwTzeZmS_MT8VIM_kDLp-8" value="+ Name&#xa;+ Adressdaten&#xa;+ UserIDs" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="DwTzeZmS_MT8VIM_kDLp-7" vertex="1">
+          <mxGeometry y="26" width="140" height="54" as="geometry" />
         </mxCell>
         <mxCell id="DwTzeZmS_MT8VIM_kDLp-15" value="&lt;span style=&quot;font-weight: 400&quot;&gt;buchungsorganisation&lt;br&gt;&lt;/span&gt;" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;align=right;verticalAlign=top;" parent="DwTzeZmS_MT8VIM_kDLp-1" vertex="1">
           <mxGeometry x="640" y="41" width="465" height="440" as="geometry" />
@@ -473,7 +473,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="UtG49OjuehTzZDv4U-XL" name="Prozess &quot;Mandant anlegen&quot;">
-    <mxGraphModel dx="2066" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2574" dy="1433" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="gZ-g2k-7XlGbFRYFtA_T-0" />
         <mxCell id="gZ-g2k-7XlGbFRYFtA_T-1" parent="gZ-g2k-7XlGbFRYFtA_T-0" />
