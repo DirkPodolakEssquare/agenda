@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-11T12:33:59.163Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="7FEVQyBKD5whEuCnUIEp" version="15.4.3" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-10-11T12:36:39.769Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="KprKHu2C8B36NmWyP_rQ" version="15.4.3" type="github" pages="6">
   <diagram id="TfbsqwK6pt8Qm60HU7U2" name="Systemkontext">
     <mxGraphModel dx="2814" dy="1433" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -313,7 +313,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="sffFwQoVKHdkiY7V-4ZY" name="Datenmodelle">
-    <mxGraphModel dx="1032" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2814" dy="1433" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="DwTzeZmS_MT8VIM_kDLp-0" />
         <mxCell id="DwTzeZmS_MT8VIM_kDLp-1" parent="DwTzeZmS_MT8VIM_kDLp-0" />
@@ -479,7 +479,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="UtG49OjuehTzZDv4U-XL" name="Prozess &quot;Mandant anlegen&quot;">
-    <mxGraphModel dx="2574" dy="1433" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2814" dy="1433" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="gZ-g2k-7XlGbFRYFtA_T-0" />
         <mxCell id="gZ-g2k-7XlGbFRYFtA_T-1" parent="gZ-g2k-7XlGbFRYFtA_T-0" />
@@ -569,6 +569,26 @@
             <mxPoint x="1010" y="580" as="sourcePoint" />
             <mxPoint x="1170" y="580" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="FL9HzhoCZNh_MVufrEr2" name="Silo Microservices">
+    <mxGraphModel dx="2814" dy="1433" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="30lPcDG9JfDfECbmtNQb-0" />
+        <mxCell id="30lPcDG9JfDfECbmtNQb-1" parent="30lPcDG9JfDfECbmtNQb-0" />
+        <mxCell id="30lPcDG9JfDfECbmtNQb-5" value="Frontend Shell&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFD966;" vertex="1" parent="30lPcDG9JfDfECbmtNQb-1">
+          <mxGeometry x="80" y="80" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="30lPcDG9JfDfECbmtNQb-2" value="MS1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;" vertex="1" parent="30lPcDG9JfDfECbmtNQb-1">
+          <mxGeometry x="160" y="120" width="40" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="30lPcDG9JfDfECbmtNQb-3" value="MS2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;" vertex="1" parent="30lPcDG9JfDfECbmtNQb-1">
+          <mxGeometry x="240" y="120" width="40" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="30lPcDG9JfDfECbmtNQb-4" value="MS3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;" vertex="1" parent="30lPcDG9JfDfECbmtNQb-1">
+          <mxGeometry x="320" y="120" width="40" height="350" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
