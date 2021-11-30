@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-30T12:42:00.762Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="MRRsl4_rzF-Z8_qkg_ZB" version="15.8.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-11-30T12:43:12.366Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="ET50Le5exogDyisRQGvr" version="15.8.3" type="github" pages="2">
   <diagram name="Version1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
     <mxGraphModel dx="2062" dy="1973" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -249,7 +249,7 @@
           <mxGeometry x="40" y="-800" width="920" height="660" as="geometry" />
         </mxCell>
         <mxCell id="DvnFE4z8PEOjaEQSsWaG-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="DvnFE4z8PEOjaEQSsWaG-1">
-          <mxGeometry x="1040" y="-800" width="420" height="660" as="geometry" />
+          <mxGeometry x="1040" y="-800" width="360" height="660" as="geometry" />
         </mxCell>
         <mxCell id="DvnFE4z8PEOjaEQSsWaG-4" value="&lt;&lt;extern :: Keycloak&gt;&gt;&#xa;User" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=39;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="DvnFE4z8PEOjaEQSsWaG-1">
           <mxGeometry x="1080" y="-320" width="220" height="91" as="geometry" />
@@ -371,7 +371,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="DvnFE4z8PEOjaEQSsWaG-40" value="&lt;h1&gt;Schnittstelle/Abhängigkeiten&lt;/h1&gt;&lt;p&gt;- Wenn Agito eine neue Rechtegruppe erstellt, muss der externe Shop davon benachrichtigt werden. Entweder muss dann der Shop entscheiden, welchen Lizenzen die neue Rechtegruppe zugeordnet wird und diese Zuordnung an Agito zurückgemelden, oder Agito muss das bereits machen und dem Shop mitteilen, welche Lizenzen nun eine neue Rechtegruppe haben.&lt;/p&gt;&lt;p&gt;- Wenn der Shop eine neue Lizenz erstellt, muss Agito davon benachrichtigt werden.&lt;/p&gt;&lt;p&gt;- Wenn ein Benutzer im Shop etwas bestellt, liefert der Shop dem VertragService einen neuen Vertragsbestand mit den gekauften Lizenzen und dem kaufenden Benutzer als einzigem Benutzer. Die Mandanten sind leer, die muss der Admin (= der kaufende Benutzer) in Agito hinzufügen.&lt;/p&gt;&lt;p&gt;- Seite 86 des Klickdummys erwähnt &quot;Produktlizenzen&quot; und &quot;Mitarbeiterlizenzen&quot;. Diese entsprechen hier den Vertragsbestandslizenzen im Vertragsbestand bzw. denen im Benutzer.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="DvnFE4z8PEOjaEQSsWaG-1">
-          <mxGeometry x="920" y="-85" width="540" height="265" as="geometry" />
+          <mxGeometry x="880" y="-85" width="540" height="265" as="geometry" />
         </mxCell>
         <mxCell id="DvnFE4z8PEOjaEQSsWaG-41" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="DvnFE4z8PEOjaEQSsWaG-1">
           <mxGeometry x="1038" y="-310" width="60" height="30" as="geometry" />
@@ -479,7 +479,7 @@
           <mxGeometry x="296" y="-303" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DvnFE4z8PEOjaEQSsWaG-66" value="externe Systeme" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="DvnFE4z8PEOjaEQSsWaG-1">
-          <mxGeometry x="1330" y="-800" width="140" height="30" as="geometry" />
+          <mxGeometry x="1280" y="-800" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DvnFE4z8PEOjaEQSsWaG-67" value="AGITO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" vertex="1" parent="DvnFE4z8PEOjaEQSsWaG-1">
           <mxGeometry x="40" y="-800" width="90" height="30" as="geometry" />
